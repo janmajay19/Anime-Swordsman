@@ -1,0 +1,101 @@
+body{
+    background-color: yellow;
+}
+#face{
+    text-align: center;
+    font-size:60px;
+    font-family: 'Libre Baskerville', serif;
+    background-color: firebrick;
+    color: aliceblue;
+    text-decoration-line: underline ;
+    border: 5px solid black;
+
+}
+.left{
+    margin-right: 15%;
+    display: inline-block;
+    background-color: firebrick;
+    height: 260px;
+    width: 600px;
+    border: 5px solid black;
+    padding: 10px;
+    font-size: 20px;
+    color: aqua;
+}
+.demon{
+    padding: 0px;
+    margin: 0%;
+}
+.left-img{
+    padding: 5px;
+    height: 250px;
+    width: 350px;
+    float: left;
+}
+.right{
+    display: inline-block;
+    background-color: firebrick;
+    height: 260px;
+    width: 600px;
+    border: 5px solid black;
+    padding: 10px;
+    font-size: 20px;
+    color: aqua;
+}
+.pirate{
+    padding: 0px;
+    margin: 0%;
+}
+.right-img{
+    padding: 5px;
+    height: 250px;
+    width: 350px;
+    float: left;
+}
+footer{
+    float: right;
+    clear: both;
+}
+
+@media (min-width:320px) and (max-width:500px){
+    #face{
+        text-align: center;
+        font-size:40px;
+        font-family: 'Libre Baskerville', serif;
+        background-color: firebrick;
+        color: aliceblue;
+        text-decoration-line: underline ;
+        border: 5px solid black;
+
+    }
+    .left{
+        background-color: firebrick;
+        height: 300px;
+        width: 439px;
+        border: 5px solid black;
+        font-size: 15px;
+        color: aqua;
+        margin-bottom: 50px;
+    }
+    .left-img{
+        height: 200px;
+        width: 430px;
+        float: none;
+    }
+
+    .right{
+        background-color: firebrick;
+        height: 300px;
+        width: 439px;
+        border: 5px solid black;
+        padding: 10px;
+        font-size: 15px;
+        color: aqua;
+    }
+    .right-img{
+        padding: 5px;
+        height: 200px;
+        width: 430px;
+        float: none;
+    }
+}
